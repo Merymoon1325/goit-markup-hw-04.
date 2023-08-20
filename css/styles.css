@@ -58,8 +58,10 @@
 }
 
 .main-section {
-  background-color: rgb(47, 48, 58);
-  background-image: url(../img/Soluciones.png);
+  background-image: linear-gradient(to bottom,
+  rgba(47, 48, 58, 0.4),
+  rgba(0, 0, 0, 0.4)
+  ), url(../img/Soluciones.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
@@ -190,6 +192,10 @@
   line-height: 1.62;
   font-size: 16px;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+}
+.button.todo {
+  background-color: rgb(33, 150, 243);
 }
 .button:hover {
   color: rgb(255, 255, 255);
@@ -289,6 +295,8 @@
   flex-basis: calc((100% - 60px) / 3);
   border: 1px solid rgb(238, 238, 238);
   background: rgb(255, 255, 255);
+}
+.img-item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12)
 }
 .p-name {
