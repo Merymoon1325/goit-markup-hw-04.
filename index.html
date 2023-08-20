@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea número 4</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="container flex-header">
+      <nav class="flex-navegation">
+        <a class="name p-name" href="#">Web Studio</a>
+        <ul class="header-list">
+          <li class="header-items">
+            <a class="link-header header_menu current" href="./index.html"
+              >Estudio</a
+            >
+          </li>
+          <li class="header-items">
+            <a class="link-header" href="./portfolio.html">Portafolio</a>
+          </li>
+          <li class="header-items">
+            <a class="link-header" href="#">Contactos</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="second-list flex-contact">
+        <li class="icon-list">
+          <svg class="icon-email">
+            <use
+              class="email"
+              href="./img/icons/symbol-defs.svg#icon-headersobre"
+            ></use>
+          </svg>
+        </li>
+        <li class="second-items">
+          <a class="gris" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="icon-list">
+          <svg class="icon-cel">
+            <use
+              href="./img/icons/symbol-defs.svg#icon-headertelfonointeligente"
+            ></use>
+          </svg>
+        </li>
+        <li class="second-items">
+          <a class="gris" href="tel:+525555296000">+525555296000</a>
+        </li>
+      </ul>
+    </header>
+
+    <id="main" class="principal">
+      <section class="main-section">
+        <div class="container">
+          <h1 class="white">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+          <div class="position">
+            <button class="mainbutton" type="button">
+              Solicite nuestro servicio
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="charact" class="container-section container">
+        <ul class="list flex-services p-0">
+          <li class="items">
+            <div class="div-icon">
+              <svg class="lienzo-services" width="70px">
+                <use
+                  class="iconmain"
+                  href="./img/icons/symbol-defsMain.svg#icon-Mainantena"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="subtitle">ATENCIÓN A LOS DETALLES</h3>
+            <p class="parrafo">
+              Nos adentramos en todos los detalles y procesos de su negocio,
+              para así desarrollar una solución a su medida.
+            </p>
+          </li>
+          <li class="items">
+            <div class="div-icon">
+              <svg class="lienzo-services" width="70px">
+                <use
+                  class="iconmain"
+                  href="./img/icons/symbol-defsMain.svg#icon-Mainreloj"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="subtitle-dos">PUNTUALIDAD</h3>
+            <p class="parrafo">
+              Con nosotros, usted puede sentirse seguro y protegido. Un
+              principio importante de la empresa: respetar su tiempo y respetar
+              los plazos acordados.
+            </p>
+          </li>
+          <li class="items">
+            <div class="div-icon">
+              <svg class="lienzo-services" width="70px">
+                <use
+                  class="iconmain"
+                  href="./img/icons/symbol-defsMain.svg#icon-Maindiagrama"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="subtitle">PLANIFICACIÓN</h3>
+            <p class="parrafo">
+              Usted podrá observar y participar en cada fase del desarrollo y
+              aplicación de soluciones.
+            </p>
+          </li>
+          <li class="items">
+            <div class="div-icon">
+              <svg class="lienzo-services" width="70px">
+                <use
+                  class="iconmain"
+                  href="./img/icons/symbol-defsMain.svg#icon-Mainastronauta"
+                ></use>
+              </svg>
+            </div>
+            <h3 class="subtitle">TECNOLOGÍA MODERNA</h3>
+            <p class="parrafo">
+              Usamos herramientas innovadoras para resolver las tareas
+              asignadas. Es hora de simplificar los procesos laborales.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mision" class="container section">
+        <div class="container-mision">
+          <h2 class="sub">A qué nos dedicamos</h2>
+        </div>
+        <ul class="mision-list flex-mision">
+          <li class="mision-items">
+            <img src="./img/1.jpg" alt="Imagen 1" width="373" height="323" />
+          </li>
+          <li class="mision-items">
+            <img src="./img/2.jpg" alt="Imagen 2" width="373" height="323" />
+          </li>
+          <li class="mision-items">
+            <img src="./img/3.jpg" alt="Imagen 3" width="373" height="323" />
+          </li>
+        </ul>
+
+      </section>
+      <section id="team" class="section section-team">
+        <div class="container">
+          <div class="container-team">
+            <h2 class="sub">Nuestro equipo</h2>
+          </div>
+          
+          <ul class="teamlist-card flex-card">
+            <li class="teamitem-card">
+              <img
+                src="./img/Equipo1.jpg"
+                alt="Tarjeta del quipo 1"
+                width="270"
+                height="260"
+              />
+              <h3 class="subname">Andrés Cubo</h3>
+              <p class="parrafod">Diseñador de productos</p>
+              <ul class="list-logo">
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+       <svg class="lienzo" width="20px" height="20px">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Maininstagram"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+                  <svg class="lienzo" width="20px" height="20px">
+                  <use class="logo"
+                    href="./img/icons/symbol-defsMain.svg#icon-Maintwitter"
+                  ></use>
+                </svg>
+              </a>
+              </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+                  <svg class="lienzo" width="20px" height="20px">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Mainfacebook"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank"></href>
+                  <svg class="lienzo" width="20px" height="20">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Mainlinkedin"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+              </ul>
+            </li>
+            <li class="teamitem-card">
+              <img
+                src="./img/equipo2.jpg"
+                alt="Tarjeta del equipo 2"
+                width="270"
+                height="260"
+              />
+              <h3 class="subname">Carla Palacios</h3>
+              <p class="parrafod">Desarrolladora Frontend</p>
+              <ul class="list-logo">
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+       <svg class="lienzo" width="20px" height="20px">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Maininstagram"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+                  <svg class="lienzo" width="20px" height="20px">
+                  <use class="logo"
+                    href="./img/icons/symbol-defsMain.svg#icon-Maintwitter"
+                  ></use>
+                </svg>
+              </a>
+              </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+                  <svg class="lienzo" width="20px" height="20px">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Mainfacebook"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank"></href>
+                  <svg class="lienzo" width="20px" height="20">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Mainlinkedin"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+              </ul>
+            </li>
+          
+
+            <li class="teamitem-card">
+              <img
+                src="./img/equipo3.jpg"
+                alt="Tarjeta del equipo 3"
+                width="270"
+                height="260"
+              />
+              <h3 class="subname">Mario Dorado</h3>
+              <p class="parrafod">Marketing</p>
+              <ul class="list-logo">
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+       <svg class="lienzo" width="20px" height="20px">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Maininstagram"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+                  <svg class="lienzo" width="20px" height="20px">
+                  <use class="logo"
+                    href="./img/icons/symbol-defsMain.svg#icon-Maintwitter"
+                  ></use>
+                </svg>
+              </a>
+              </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+                  <svg class="lienzo" width="20px" height="20px">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Mainfacebook"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank"></href>
+                  <svg class="lienzo" width="20px" height="20">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Mainlinkedin"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+              </ul>
+            </li>
+            <li class="teamitem-card">
+              <img
+                src="./img/equipo4.jpg"
+                alt="Tarjeta del equipo 4"
+                width="270"
+                height="260"
+              />
+              <h3 class="subname">Pablo Mijangos</h3>
+              <p class="parrafod">Diseñador IU</p>
+              <ul class="list-logo">
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+                  <svg class="lienzo" width="20px" height="20px">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Maininstagram"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+                </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+                  <svg class="lienzo" width="20px" height="20px">
+                  <use class="logo"
+                    href="./img/icons/symbol-defsMain.svg#icon-Maintwitter"
+                  ></use>
+                </svg>
+              </a>
+              </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank">
+                  <svg class="lienzo" width="20px" height="20px">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Mainfacebook"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+                <li class="item-logo">
+                  <a href="#" class="icons-links" rel="noopener noreffer" target="_blank"></href>
+                  <svg class="lienzo" width="20px" height="20">
+                    <use class="logo"
+                      href="./img/icons/symbol-defsMain.svg#icon-Mainlinkedin"
+                    ></use>
+                  </svg>
+                </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <h2 class="sub clientes">Clientes regulares</h2>
+          <ul class="list-clientes">
+            <li class="item-clientes">
+              <div class="div-clientes">
+                <svg width="106px" height="52.826px">
+                  <use
+                    href="./img/icons/symbol-defsMain.svg#icon-MainLogo"
+                  ></use>
+                </svg>
+              </div>
+            </li>
+            <li class="item-clientes">
+              <div class="div-clientes">
+                <svg width="106px" height="52.826px">
+                  <use
+                    href="./img/icons/symbol-defsMain.svg#icon-MainLogo1"
+                  ></use>
+                </svg>
+              </div>
+            </li>
+            <li class="item-clientes">
+              <div class="div-clientes">
+                <svg width="106px" height="52.826px">
+                  <use
+                    href="./img/icons/symbol-defsMain.svg#icon-MainLogo2"
+                  ></use>
+                </svg>
+              </div>
+            </li>
+            <li class="item-clientes">
+              <div class="div-clientes">
+                <svg width="106px" height="52.826px">
+                  <use href="./img/icons/grupo.svg#icon-Maingrupo"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="item-clientes">
+              <div class="div-clientes">
+                <svg width="106px" height="52.826px">
+                  <use
+                    href="./img/icons/symbol-defsMain.svg#icon-MainLogo3"
+                  ></use>
+                </svg>
+              </div>
+            </li>
+            <li class="item-clientes">
+              <div class="div-clientes">
+                <svg width="106px" height="52.826px">
+                  <use
+                    href="./img/icons/symbol-defsMain.svg#icon-MainLogo4"
+                  ></use>
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <address class="footer">
+        <div class="container foot">
+          <ul class="info-list">
+            <li class="info-item">
+              <a class="name" href="#">Web Studio</a>
+            </li>
+            <li class="info">
+              <a
+                class="link-foot"
+                href="https://goo.gl/maps/L9u1Q98ZNXVA683N9"
+                rel="nopener noreffer"
+                target="blank"
+                >Calz. Ticomán 500, Ciudad de México, CDMX, México"></a
+              >
+            </li>
+            <li class="info">
+              <a class="link-footer" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="info">
+              <a class="link-footer" href="tel:+525555296000">+525555296000</a>
+            </li>
+          </ul>
+          <ul class="contact-footer">
+            <li class="footer-items">ENCUENTRANOS EN</li>
+            <li class="footer-items">
+              <div class="footer-div">
+                <a href="#" class="icons-footer" rel="noopener noreffer" target="_blank">
+                <svg class="lienzo-footer" width="20px" height="20px">
+                  <use class="logo-footer"
+                    class="iconmain"
+                    href="./img/icons/symbol-defsMain.svg#icon-Maininstagram"
+                  ></use>
+                </svg>
+              </a>
+              </div>
+              <div class="footer-div">
+                <a href="#" class="icons-footer-twitter" rel="noopener noreffer" target="_blank">
+                <svg class="lienzo-footer" width="20px" height="20px">
+                  <use class="logo-footer"
+                    class="iconmain"
+                    href="./img/icons/symbol-defsMain.svg#icon-Maintwitter"
+                  ></use>
+                </svg>
+              </a>
+              </div>
+              <div class="footer-div">
+                <a href="#" class="icons-footer" rel="noopener noreffer" target="_blank">
+                <svg class="lienzo-footer" width="20px" height="20px">
+                  <use class="logo-footer"
+                    class="iconmain"
+                    href="./img/icons/symbol-defsMain.svg#icon-Mainfacebook"
+                  ></use>
+                </svg>
+              </a>
+              </div>
+              <div class="footer-div">
+                <a href="#" class="icons-footer" rel="noopener noreffer" target="_blank">
+                <svg class="lienzo-footer" width="20px" height="20px">
+                  <use class="logo-footer"
+                    class="iconmain"
+                    href="./img/icons/symbol-defsMain.svg#icon-Mainlinkedin"
+                  ></use>
+                </svg>
+              </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </address>
+    </footer>
+  </body>
+</html>
