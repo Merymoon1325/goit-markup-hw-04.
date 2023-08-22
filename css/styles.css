@@ -2,8 +2,41 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-.name {
+.svg {
+  fill: currentColor;
+}
+.a {
+  color: currentColor;
+  text-decoration: none;
+}
+.ul {
+  list-style-type: none;
+}
+:root {
+  --brand-color: rgb(33, 150, 243);
+}
+
+
+.second-items:hover .icon-header {
+  fill: rgb(33, 150, 243);
+}
+.second-items:hover .icon-cel {
+  fill: rgb(33, 150, 243);
+}
+.second-items:hover .gris {
   color: rgb(33, 150, 243);
+}
+.second-items:focus .icon-header {
+  fill: rgb(33, 150, 243);
+}
+.second-items:focus .icon-cel {
+  fill: rgb(33, 150, 243);
+}
+.second-items:focus .gris {
+  color: rgb(33, 150, 243);
+}
+.name {
+  color: var(--brand-color);
   text-decoration: none;
   font-weight: 700;
   line-height: 1.17;
@@ -25,28 +58,15 @@
   list-style: none;
   margin: 0px;
 }
-.header-list .header-items .link-header:hover {
-  color: rgb(33, 150, 243);
-}
-.second-list .second-items .gris {
+.second-items {
   color: rgb(117, 117, 117);
   font-family: "Roboto", sans-serif;
-  text-decoration: none;
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
-}
-.second-list .second-items .gris:hover {
-  color: rgb(33, 150, 243);
-}
-.second-items {
-  padding-right: 30px;
-}
-.second-list {
-  list-style: none;
-}
-.list {
-  list-style: none;
+
+  display: flex;
+  align-items: center;
 }
 .mision-list {
   list-style: none;
@@ -56,7 +76,6 @@
   list-style: none;
   padding: 0px;
 }
-
 .main-section {
   background-image: linear-gradient(to bottom,
   rgba(47, 48, 58, 0.4),
@@ -284,7 +303,7 @@
 .flex-contact {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 50px;
 }
 .flexp {
  display: flex;
@@ -354,6 +373,7 @@
 }
 .items {
   padding-top: 95px;
+  list-style: none;
 }
 .p-0 {
   padding-top: 0px;
@@ -434,24 +454,15 @@
 .link-header.header_menu.current {
   color: rgb(33, 150, 243);
 }
-.icon-email {
+.icon-header{
   width: 16px;
   height: 12px;
-  cursor: pointer;
   fill: #757575;
 }
-.icon-email:hover {
-  fill: rgb(33, 150, 243);
-}
-
 .icon-cel {
   width: 10px;
   height: 16px;
   fill: rgb(117, 117, 117);
-  cursor: pointer;
-}
-.icon-cel:hover {
-  fill: rgb(33, 150, 243);
 }
 .footer {
   display: flex;
