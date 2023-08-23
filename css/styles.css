@@ -497,13 +497,16 @@ padding-bottom: 165px;
   flex-wrap: nowrap;
   padding-left: 0px;
   gap: 30px;
-  
 }
 .item-clientes {
   display: flex;
   list-style: none;
   text-align: center;
   align-items: center;
+  fill: rgb(175, 177, 184);
+}
+.item-clientes:hover {
+fill: var(--brand-color);
 }
 .div-icon {
   width: 270px;
@@ -534,12 +537,15 @@ border-radius: 4px;
 border: 1px solid rgb(175, 177, 184);
 padding: 14px 32px 14px 32px;
 }
+.div-clientes:hover {
+  border-color: var(--brand-color);
+}
 .footer-div {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.icons-footer-twitter {
+.icons-footer {
   display: flex;
   width: 44px;
   height: 44px;
@@ -576,6 +582,15 @@ padding: 14px 32px 14px 32px;
   height: 44px;
   border-radius: 50%;
   cursor: pointer;
+  fill: rgb(175, 177, 184);
+}
+.icons-links:hover {
+  fill: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
+}
+.icons-links:focus {
+  fill: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
 }
 
 /* .logo:hover {
@@ -592,7 +607,12 @@ padding: 14px 32px 14px 32px;
   height: 44px;
   border-radius: 50%;
   gap: 10px;
+  fill: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.102);
 }
-.icons-footer {
-  background-color: rgba(255, 255, 255, 0.10);
+.icons-footer:hover {
+  background-color: var(--brand-color);
+}
+.icons-footer:focus {
+  background-color: var(--brand-color);
 }
