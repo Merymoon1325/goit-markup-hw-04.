@@ -16,7 +16,6 @@
   --brand-color: rgb(33, 150, 243);
 }
 
-
 .second-items:hover .icon-header {
   fill: rgb(33, 150, 243);
 }
@@ -272,12 +271,11 @@
   text-align: center;
   border-radius: 0px 0px 4px 4px;
   background: #fff;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .teamlist-card .teamitem-card:hover {
-  background-color: rgb(216, 214, 211);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
 .parrafod {
   text-align: center;
 }
@@ -434,6 +432,12 @@
 .footer {
   background-color: rgb(47, 48, 58);
 }
+.contact-footer {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  gap: 10px;
+}
 .img-section .flexp {
   padding: 0px;
 }
@@ -472,16 +476,21 @@
   gap: 70px;
   align-items: center;
 }
-.contac-footer {
-  display: flex;
-}
 .footer-items {
-  display: flex;
+display: flex;
  font-family: "Roboto", sans-serif;
  font-size: 14px;
  font-style: normal;
  color: rgb(255, 255, 255);
- padding-bottom: 20px;
+}
+.footer-item {
+font-family: "Roboto", sans-serif;
+ font-size: 14px;
+ font-style: normal;
+ color: rgb(255, 255, 255);
+}
+.section-clientes {
+padding-bottom: 165px;
 }
 .list-clientes {
   display: flex;
@@ -492,7 +501,6 @@
 }
 .item-clientes {
   display: flex;
-  padding-bottom: 165px;
   list-style: none;
   text-align: center;
   align-items: center;
@@ -528,12 +536,8 @@ padding: 14px 32px 14px 32px;
 }
 .footer-div {
   display: flex;
-  width: 44px;
-  height: 44px;
-  justify-content: center;
-  align-items: center;
-  padding-right: 10px;
-  cursor: pointer;
+  flex-direction: column;
+  gap: 15px;
 }
 .icons-footer-twitter {
   display: flex;
@@ -551,9 +555,9 @@ padding: 14px 32px 14px 32px;
   justify-content: center;
   padding: 0px;
 }
-.lienzo .logo {
+/* .lienzo .logo {
   fill: rgb(175, 177, 184);
-}
+} */
 .item-logo {
   display: flex;
   width: 44px;
@@ -573,16 +577,13 @@ padding: 14px 32px 14px 32px;
   border-radius: 50%;
   cursor: pointer;
 }
-.icons-links:hover {
-  fill: rgb(255, 255, 255);
-  background-color: hwb(207 13% 5%)
-}
-.logo:hover {
+
+/* .logo:hover {
   fill: rgb(255, 255, 255);
 }
 .logo-footer {
   fill: #FFFFFF;
-}
+} */
 .icons-footer {
   display: flex;
   justify-content: center;
